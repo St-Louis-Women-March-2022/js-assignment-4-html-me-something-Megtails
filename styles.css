@@ -12,8 +12,8 @@ header {
 
 .navBar {
     list-style-type: none;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 0;
     overflow: hidden;
     background-color: rgb(109, 107, 107);
@@ -57,7 +57,7 @@ h4 {
 }
 
 .funParagraph {
-    color: darkgreen;
+    color: green;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 20%;
@@ -71,6 +71,7 @@ h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-style: solid;
     border-radius: 8px;
 }
 
@@ -80,6 +81,14 @@ h4 {
     display:block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 8px;
+}
+
+.humanName {
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(47, 17, 156);
+    font-style: italic;
 }
 
 .animeName {
@@ -92,6 +101,7 @@ h4 {
 .animeStats {
     margin-left: 10%;
     margin-top: 75px;
+    padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
     float: left;
@@ -107,7 +117,36 @@ li {
 .animeInfo {
     margin-left: 30%;
     margin-right: 10%;
-    margin-bottom: 4%;
-    padding: 10px;
+    margin-bottom: 2%;
+    padding: 8px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+article {
+    margin-left: 33%;
+    margin-right: 33%;
+    background-color: rgb(221, 229, 248);
+    padding: 25px;
+    border-style:double;
+    border-width: 10px;
+    font-size: large;
+}
+
+#aboutUs {
+    padding-top: 50px;
+}
+
+.aboutHuman {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 4%;
+}
+
+.human {
+    float: left;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
 }
